@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .Cont-DriftOS{
@@ -12,6 +13,9 @@
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
 }
 
 .task-bar{
@@ -19,13 +23,12 @@
     height: 85px;
     display: flex;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url('img/Task_Bar_beta.png');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
+    margin-bottom: 10px;
 }
 
 .Btn{
@@ -41,15 +44,11 @@
 
 #icon1{
     margin-left: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
     background-image: url('img/Btn1.png');
     cursor: pointer;
 }
 
 #icon1:hover{
     background-image: url('img/Btn1_press.png');
-}
-
-#icon2{
-    margin-right: 5px;
 }
