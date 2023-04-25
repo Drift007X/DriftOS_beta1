@@ -7,12 +7,11 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url('/img/fondo.png');
+    background-image: url('img/fondo.png');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
-    background-color: red;
 }
 
 .task-bar{
@@ -22,7 +21,7 @@
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('/img/Task_Bar_beta.png');
+    background-image: url('img/Task_Bar_beta.png');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -33,23 +32,23 @@
 .Btn{
     width: 65px;
     height: 65px;
-    background-image: url('/img/Btn.png');
+    background-image: url('img/Btn.png');
     margin-top: 10px;
 }
 
 .Btn:hover{
-    background-image: url('/img/Btn_press.png');
+    background-image: url('img/Btn_press.png');
 }
 
 #icon1{
     margin-left: 10px;
     margin-right: 5px;
-    background-image: url('/img/Btn1.png');
+    background-image: url('img/Btn1.png');
     cursor: pointer;
 }
 
 #icon1:hover{
-    background-image: url('/img/Btn1_press.png');
+    background-image: url('img/Btn1_press.png');
 }
 
 #icon2{
